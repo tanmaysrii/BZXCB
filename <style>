@@ -1,0 +1,28 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .bg-dark {
+    background-color: #1f1f1f !important;
+}
+
+body.dark-mode .bg-secondary {
+    background-color: #2c2c2c !important;
+}
+
+body.dark-mode input,
+body.dark-mode li,
+body.dark-mode .btn {
+    background-color: #333 !important;
+    color: white !important;
+}
+
+body.dark-mode li:hover {
+    background-color: #444 !important;
+    color: #fff;
+}
+
+body.dark-mode input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(0); /* To fix date icon */
+}
